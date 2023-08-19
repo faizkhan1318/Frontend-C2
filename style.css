@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(14, 37, 41, 0.486);
+}
+
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 20px 5px rgb(112, 148, 163);
+    height: 10vh;
+  }
+  .logo{
+    font-size: 30px;
+    align-items: center;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo a:hover,
+  ul li a:hover {
+    color: aqua;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .list-items li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  div ul li a:link {
+    text-decoration: none;
+    color: white;
+  }
+
+main {
+    margin-top: 30px;
+}
+
+.book-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 55vw;
+    background-color: white;
+    box-shadow: 10px 10px 20px black;
+}
+#books{
+    font-size: 35px;
+    text-align: left;
+}
+.table-container {
+    width: 45vw;
+    padding: 10px;
+    
+  }
+.tables-1{
+    border: 1px solid black;
+    border-collapse: collapse;
+    overflow: hidden;
+
+}
+th {
+    color: #3367d1;
+} 
+
+td,th {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-2 {
+    color: black;
+} 
+
+.registertation {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.div-3 {
+    border: 1px solid black;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 20px black;
+    background-color: white;
+}
+
+#register {
+    padding: 10px;
+    font-size: 35px;
+    
+}
+
+div,
+label {
+    padding: 5px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 2px solid skyblue;
+}
+input{
+    width: 45vw;
+    height: 5vh;
+}
+#register-btn{
+    background-color: #3367d1;
+}
